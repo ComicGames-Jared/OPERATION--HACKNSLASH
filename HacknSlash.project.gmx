@@ -19,6 +19,7 @@
       <sprite>sprites\s_skeleton_roll</sprite>
       <sprite>sprites\s_skeleton_attack_one</sprite>
       <sprite>sprites\s_skeleton_run</sprite>
+      <sprite>sprites\s_experience</sprite>
     </sprites>
     <sprites name="Knight">
       <sprite>sprites\s_knight_mask</sprite>
@@ -36,10 +37,13 @@
       <sprite>sprites\s_grave</sprite>
       <sprite>sprites\s_wall</sprite>
     </sprites>
+    <sprite>sprites\s_samurai_idle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\GrassBackground</background>
     <background>background\CloudsBackground</background>
+    <background>background\FarGravesBackground</background>
+    <background>background\CloseGravesBackground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -53,6 +57,9 @@
     <script>scripts\approach.gml</script>
     <script>scripts\knockback_state.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\f_one</font>
+  </fonts>
   <objects name="objects">
     <object>objects\o_skeleton</object>
     <object>objects\o_wall</object>
@@ -66,6 +73,9 @@
       <object>objects\o_fence</object>
       <object>objects\o_grave</object>
     </objects>
+    <object>objects\o_parallax</object>
+    <object>objects\o_hud</object>
+    <object>objects\o_experience</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_world</room>
