@@ -105,15 +105,22 @@ ds_list_destroy(hit_objects);
     exit;
 }
 
-other.hp -= damage;
+
 if instance_exists(o_skeleton) and creator.object_index == o_skeleton and other.hp &lt;= 0{
    o_skeleton.kills += 1;
 }
+
+
+if o_skeleton.state != "Roll" or instance_id == o_enemy_parent {
+other.hp -= damage;
 ds_list_add(hit_objects, other);
 show_debug_message(other.hp);
 other.state = "Knockback"
 other.knockback_speed = knockback * image_xscale;
 other.image_xscale = -image_xscale;
+}
+
+
 </string>
           </argument>
         </arguments>

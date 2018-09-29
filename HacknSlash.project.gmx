@@ -81,6 +81,8 @@
     <object>objects\o_hud</object>
     <object>objects\o_experience</object>
     <object>objects\o_crow</object>
+    <object>objects\o_enemy_spawner</object>
+    <object>objects\o_enemy_parent</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_world</room>
