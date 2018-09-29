@@ -127,7 +127,7 @@ if instance_exists(o_skeleton) {
           var by = other.y + random_range(-24, 8);
           var bone = instance_create(bx, by, o_skeleton_bone);
           bone.direction = 90 - (image_xscale * random_range(30, 60));
-          bone.speed = random_range(3, 10);
+          bone.speed = random_range(1.5, 5);
           bone.image_index = i;
           if i == 5  bone.image_angle = 130;
       }

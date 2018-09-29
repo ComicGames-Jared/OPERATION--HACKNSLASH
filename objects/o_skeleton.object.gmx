@@ -132,7 +132,7 @@ if input.attack
         }
         if animation_hit_frame(1)
         {
-            print(image_index);
+            //print(image_index);
         }
          break;
          
@@ -164,7 +164,6 @@ if input.attack
          set_state_sprite(s_skeleton_attack_two,0.2,0);
         if animation_hit_frame(1)
          {
-         show_debug_message("Attack 2 Hitbox");
           create_hitbox(x,y,id,s_skeleton_attack_two_damage, knockback2, 4, 5, image_xscale);
          }
          
