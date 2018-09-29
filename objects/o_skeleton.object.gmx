@@ -132,7 +132,7 @@ if input.attack
         }
         if animation_hit_frame(1)
         {
-            show_debug_message(image_index);
+            print(image_index);
         }
          break;
          

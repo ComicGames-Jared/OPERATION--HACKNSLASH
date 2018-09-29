@@ -60,6 +60,7 @@
     <script>scripts\create_hitbox.gml</script>
     <script>scripts\approach.gml</script>
     <script>scripts\knockback_state.gml</script>
+    <script>scripts\print.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_one</font>
@@ -83,6 +84,7 @@
     <object>objects\o_crow</object>
     <object>objects\o_enemy_spawner</object>
     <object>objects\o_enemy_parent</object>
+    <object>objects\o_skeleton_bone</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_world</room>
