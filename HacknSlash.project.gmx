@@ -38,6 +38,10 @@
       <sprite>sprites\s_wall</sprite>
     </sprites>
     <sprite>sprites\s_samurai_idle</sprite>
+    <sprites name="Crow">
+      <sprite>sprites\s_feather</sprite>
+      <sprite>sprites\s_crow</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\GrassBackground</background>
@@ -76,6 +80,7 @@
     <object>objects\o_parallax</object>
     <object>objects\o_hud</object>
     <object>objects\o_experience</object>
+    <object>objects\o_crow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_world</room>

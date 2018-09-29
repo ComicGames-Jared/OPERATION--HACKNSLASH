@@ -3,7 +3,7 @@
   <caption></caption>
   <width>1280</width>
   <height>360</height>
-  <vsnap>32</vsnap>
+  <vsnap>16</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
@@ -70,6 +70,11 @@
     <instance objName="o_wall" x="0" y="288" name="inst_06689DF6" locked="0" code="" scaleX="40.2580642700195" scaleY="3.09677410125732" colour="4294967295" rotation="0"/>
     <instance objName="o_wall" x="1088" y="256" name="inst_7BA8A2B4" locked="0" code="visible = false;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_wall" x="160" y="256" name="inst_D192A8FC" locked="0" code="visible = false;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_crow" x="1024" y="192" name="inst_400963C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_crow" x="496" y="80" name="inst_F225647D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_crow" x="80" y="112" name="inst_9DFFC76A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_crow" x="1264" y="32" name="inst_D0FA0BEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_crow" x="976" y="272" name="inst_CDEE2F86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
