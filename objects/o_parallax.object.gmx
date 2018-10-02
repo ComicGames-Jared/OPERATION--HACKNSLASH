@@ -78,10 +78,10 @@ parallax = true;
           <argument>
             <kind>1</kind>
             <string>//if parallax = true {
-if not instance_exists(o_skeleton) exit;
-draw_background(CloudsBackground,o_skeleton.x / 1.2, 128)
-draw_background(FarGravesBackground,o_skeleton.x / 1.8 , 160)
-draw_background(CloseGravesBackground,o_skeleton.x / 2.5, 180)
+if not instance_exists(o_camera) exit;
+draw_background(CloudsBackground,o_camera.x / 1.3, 128)
+draw_background(FarGravesBackground,o_camera.x / 1.9 , 160)
+draw_background(CloseGravesBackground,o_camera.x / 2.5, 180)
 //} else if parallax = false {
  // exit
 //}

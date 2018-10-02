@@ -42,6 +42,8 @@
       <sprite>sprites\s_feather</sprite>
       <sprite>sprites\s_crow</sprite>
     </sprites>
+    <sprite>sprites\s_enemy_healthbar</sprite>
+    <sprite>sprites\s_hit_effect</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\GrassBackground</background>
@@ -61,6 +63,7 @@
     <script>scripts\approach.gml</script>
     <script>scripts\knockback_state.gml</script>
     <script>scripts\print.gml</script>
+    <script>scripts\add_screenshake.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_one</font>
@@ -85,6 +88,8 @@
     <object>objects\o_enemy_spawner</object>
     <object>objects\o_enemy_parent</object>
     <object>objects\o_skeleton_bone</object>
+    <object>objects\o_camera</object>
+    <object>objects\o_hit_effect</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_world</room>
