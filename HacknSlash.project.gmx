@@ -64,6 +64,7 @@
     <script>scripts\knockback_state.gml</script>
     <script>scripts\print.gml</script>
     <script>scripts\add_screenshake.gml</script>
+    <script>scripts\death_state.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_one</font>
@@ -90,6 +91,7 @@
     <object>objects\o_skeleton_bone</object>
     <object>objects\o_camera</object>
     <object>objects\o_hit_effect</object>
+    <object>objects\o_feather</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_world</room>

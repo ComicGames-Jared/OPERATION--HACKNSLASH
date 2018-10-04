@@ -104,7 +104,7 @@ ds_list_destroy(hit_objects);
 {
     exit;
 }
-
+//Hitting Enemy
 if o_skeleton.state != "Roll" or instance_id == o_enemy_parent {
 other.hp -= damage;
 repeat(5)
@@ -113,9 +113,12 @@ repeat(5)
 }
 ds_list_add(hit_objects, other);
 show_debug_message(other.hp);
+ if other.state != "Death" {
 other.state = "Knockback"
+ }
 other.knockback_speed = knockback * image_xscale;
 other.image_xscale = -image_xscale;
+
 }
 
 if instance_exists(o_skeleton) {  
@@ -123,8 +126,9 @@ if instance_exists(o_skeleton) {
    {
         o_skeleton.kills += 1;
    }
-   if other.object_index == o_skeleton  {
    
+   if other.object_index == o_skeleton  {
+   //we hit player
       add_screenshake(8, 6);
           if other.hp &lt;= 0 {
               var number = sprite_get_number(s_skeleton_bones);
@@ -139,7 +143,10 @@ if instance_exists(o_skeleton) {
                       if i == 5  bone.image_angle = 130;
               }
       }
-   } else {
+   } else 
+   {
+    //we hit enemy
+    
      other.alarm[0] = 120;
      add_screenshake(2, 6);
    }

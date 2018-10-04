@@ -73,6 +73,13 @@ knockback = 4;
                vspeed = -1;
             }
             break;
+       case "Death": 
+            repeat(6)
+            {
+             instance_create(x+random_range(-4, 4), y-16+random_range(-4, 4), o_feather);
+            }
+            instance_destroy();
+            break;
 
 }
 </string>
