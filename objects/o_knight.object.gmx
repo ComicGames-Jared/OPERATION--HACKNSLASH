@@ -105,6 +105,10 @@ experience = 5;
            knockback_state(s_knight_hitstun, "Chase");
            break;
            
+           case "Death":
+           death_state(s_knight_die);
+           break;
+           
            default:
         show_debug_message("State " +state+" does not exist");
         state = "Chase"
