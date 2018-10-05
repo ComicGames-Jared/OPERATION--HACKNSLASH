@@ -72,29 +72,32 @@
   <objects name="objects">
     <object>objects\o_skeleton</object>
     <object>objects\o_wall</object>
-    <object>objects\o_input</object>
     <object>objects\o_knight</object>
-    <object>objects\o_hitbox</object>
-    <object>objects\o_lifeform</object>
     <objects name="Enviroment">
       <object>objects\o_graves</object>
       <object>objects\o_clouds</object>
       <object>objects\o_fence</object>
       <object>objects\o_grave</object>
     </objects>
-    <object>objects\o_parallax</object>
-    <object>objects\o_hud</object>
     <object>objects\o_experience</object>
     <object>objects\o_crow</object>
-    <object>objects\o_enemy_spawner</object>
-    <object>objects\o_enemy_parent</object>
     <object>objects\o_skeleton_bone</object>
-    <object>objects\o_camera</object>
     <object>objects\o_hit_effect</object>
     <object>objects\o_feather</object>
+    <object>objects\o_camera</object>
+    <objects name="Functions">
+      <object>objects\o_input</object>
+      <object>objects\o_hitbox</object>
+      <object>objects\o_lifeform</object>
+      <object>objects\o_parallax</object>
+      <object>objects\o_enemy_spawner</object>
+      <object>objects\o_enemy_parent</object>
+      <object>objects\o_hud</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_world</room>
+    <room>rooms\r_mainmenu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
