@@ -96,8 +96,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\r_world</room>
     <room>rooms\r_mainmenu</room>
+    <room>rooms\r_world</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

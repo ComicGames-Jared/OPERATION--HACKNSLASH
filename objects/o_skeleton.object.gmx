@@ -94,7 +94,7 @@ if input.left
 
 if !input.right &amp;&amp; !input.left
    {
-    sprite_index = s_skeleton_idle;
+    sprite_index = s_samurai_idle;
     image_speed = 0.1;
     }
 
